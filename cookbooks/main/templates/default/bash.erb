@@ -47,3 +47,8 @@ source /etc/bash_completion.d/git
 
 # Ruby Version Manager: Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+#generate random password
+function genPass {
+  cat /dev/urandom | tr -cd '[:graph:]' | head -c ${1:-12} 
+}
