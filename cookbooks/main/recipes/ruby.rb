@@ -1,8 +1,8 @@
 # Ruby stack
 
-the_owner = 'bsnux'
-the_group = 'bsnux'
-ruby_version = '1.9.3'
+the_owner = 'alex'
+the_group = 'alex'
+ruby_version = '2.1.1'
 
 package 'curl'
 
