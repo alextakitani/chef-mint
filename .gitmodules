@@ -4,3 +4,6 @@
 [submodule "cookbooks/chef-rvm"]
 	path = cookbooks/chef-rvm
 	url = https://github.com/fnichol/chef-rvm
+[submodule "cookbooks/chef_gem"]
+	path = cookbooks/chef_gem
+	url = https://github.com/hw-cookbooks/chef_gem

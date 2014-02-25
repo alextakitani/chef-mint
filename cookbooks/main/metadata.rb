@@ -1,2 +1,2 @@
 depends "apt"
-depends "rvm"
+depends "chef-rvm"
